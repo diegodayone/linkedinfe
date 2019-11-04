@@ -1,3 +1,3 @@
 module.exports= {
-    baseURL: "http://localhost:3123/"
+    baseURL: "https://linkedin-be-test.herokuapp.com/"
 }
