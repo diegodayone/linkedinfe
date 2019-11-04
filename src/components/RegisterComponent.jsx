@@ -10,7 +10,7 @@ class Register extends React.Component {
       }
     render() { 
         return ( 
-        <div className="container">
+        <div className="container loginContainer">
             <input className="form-control" type="email" value={this.state.email} onChange={(val) => this.setState({ email: val.currentTarget.value})} placeholder="Email"></input>
             <input className="form-control" type="password" value={this.state.password} onChange={(val) => this.setState({ password: val.currentTarget.value})} placeholder="Password"></input>
             <input type="button" className="btn btn-primary" value="Register" onClick={this.Register} ></input>

@@ -9,9 +9,9 @@ class Experiences extends React.Component {
         selectedExp: null
      }
     render() { 
-        return ( <div className="container">
+        return ( <div className="container mt-3">
             {this.state.experiences && this.state.experiences.map(exp => 
-            <Media key={exp._id} >
+            <Media key={exp._id} className="m-2" >
                 <Media left top href="#">
                     <Media object src={exp.image} alt="Generic placeholder image" style={{width: 100}} />
                 </Media>

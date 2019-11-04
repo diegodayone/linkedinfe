@@ -108,8 +108,8 @@ class ExperienceModal extends React.Component {
             this.setState({
                 role: this.props.selectedExp.role,
                 area: this.props.selectedExp.area,
-                startDate: this.props.selectedExp.startDate.replace(":00.000Z", ""),
-                endDate: this.props.selectedExp.endDate,
+                startDate: this.props.selectedExp.startDate ? this.props.selectedExp.startDate.replace(":00.000Z", "") : "",
+                endDate: this.props.selectedExp.endDate ? this.props.selectedExp.endDate.replace(":00.000Z", "") : "",
                 company: this.props.selectedExp.company,
                 description: this.props.selectedExp.description
             })
