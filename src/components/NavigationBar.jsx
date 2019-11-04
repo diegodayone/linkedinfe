@@ -33,7 +33,7 @@ const NavigationBar = (props) => {
                 <Link to="/feed">Feed</Link>
             </NavItem>
             <NavItem>
-                <Link to="/profile">Profile</Link>
+                <Link to="/profile/me">Profile</Link>
             </NavItem>
           </Nav>
         </Collapse>
